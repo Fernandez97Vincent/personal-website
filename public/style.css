@@ -1,3 +1,9 @@
+/* #5D5C61 - dark gray
+#379683 - light gray
+#7395AE - lighter blue
+#557A95 - dark blue
+#B1A296 - brown */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,12 +11,35 @@
     justify-content: center;
 }
 
-.navbar {
-    background-color: beige;
+.container-md {
+    margin-top: 5rem;
+    color: white;
+    background-color: #B1A296;
+    border-radius: 10px;
+    padding: 10px;
 }
+
+.navbar {
+    background-color: #7395AE;
+}
+
+/* .navbar a {
+    color: white;
+}
+
+.navlink-active {
+    color: white;
+}
+.navbar-brand a {
+    color: white;
+} */
 
 .carousel {
     margin: auto;
     width: 70%;
     padding: 10px;
+}
+
+.container-md h1 {
+    display: flex;
 }
