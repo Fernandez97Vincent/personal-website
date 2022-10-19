@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: beige;
+}
+
+.carousel {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
